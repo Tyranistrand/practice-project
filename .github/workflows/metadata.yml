@@ -6,4 +6,4 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Output metadata
-        run: echo ${{toJSON(github.event)}}
+        run: echo ${{ github.event }}
